@@ -1,0 +1,7 @@
+baseURL = 'https://slainbynetflix.com'
+languageCode = 'en-us'
+title = 'Slain by Netflix'
+theme = 'lugo'
+
+[params]
+  logo = '/img/logo.png'

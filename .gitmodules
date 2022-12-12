@@ -1,0 +1,6 @@
+[submodule "themes/kill-netflix"]
+	path = themes/kill-netflix
+	url = https://github.com/tehuel/bulminimal.git
+[submodule "themes/lugo"]
+	path = themes/lugo
+	url = https://github.com/LukeSmithxyz/lugo.git
