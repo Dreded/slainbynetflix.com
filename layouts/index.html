@@ -1,0 +1,34 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+{{ define "main" -}}
+{{ .Content }}
+<div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
+
+    <ol class="post-list">
+        {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+        {{ range $pag.Pages }}
+        <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+            <div class="post-image"><img src="/img/tombstone.png" /></div>
+            <div class="post-text" >
+              <a href="{{ .Permalink }}" itemprop="url">
+                  <h3 class="post-stub-title" itemprop="name">{{ .Title }}</h3>
+                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">Cacelled:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.Cancelleddate }}</time><br />
+                  <span class="subtitle">Seasons:</span> {{ with .Params.Seasons }}{{.}}{{end}}
+                  {{ .Content }}
+                  {{ with .Params.featured }}
+                      <span class="post-stub-tag">Featured</span>
+                  {{ end }}
+              </a>  
+          </div>
+            <div style="clear:both;"></div>
+          </li>
+          
+        {{ end }}
+          
+    </ol>
+    <div class="post-navigation">
+    </div>
+</div>
+{{end}}
