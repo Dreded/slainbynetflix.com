@@ -53,11 +53,9 @@
             </div>
 
             <div class="single_dates">
-                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.first_air_date
-                    }}</time>
+                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.first_air_date}}</time>
                 -
-                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.last_air_date
-                    }}</time>
+                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.last_air_date}}</time>
             </div>
             <div>
                 <span class="subtitle seasons">Seasons:</span> {{ with .Params.number_of_seasons }}{{.}}{{end}}
