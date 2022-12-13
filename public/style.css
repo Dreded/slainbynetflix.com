@@ -1,9 +1,17 @@
 body {
 	font-family: sans-serif ;
-	background: #110000 ;
+	font-size: 1.2em;
+	background: #000000 ;
 	color: #ccc ;
 }
-
+a:link, a:visited {
+	color:#307cbb;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color:#307cbb;
+	text-decoration: underline;
+}
 main {
 	max-width: 800px ;
 	margin: auto ;
@@ -12,9 +20,54 @@ main {
 img {
 	max-width: 100% ;
 }
+.post-list {
+	list-style: none;
+}
+.post-stub {
+	display: flex; align-items: center;
+}
+.post-image {
+	padding-right: 20px;
+	width: 15%;
+}
+.post-text {
+	width: 85%;
+}
+.post-text h3 {
+	padding: 0 0;
+	margin: 0 0;
+	color:#FFFFFF;
+}
+.subtitle {
+	font-weight: bold;
+}
+
+header {
+	height: 5em;
+	display: flex;
+	justify-content: center; /* Align horizontal */
+	align-items: center; /* Align vertical */
+}
+header .title {
+	font-size: 3em;
+	color:#c00000;
+	font-weight: bold;
+}
 
 header h1 {
-	text-align: center ;
+	text-align: center;
+	display: inline;
+}
+header .page_title {
+	font-size: 30px;
+}
+header img {
+	height: 100%;
+}
+.menuactive {
+	background-color: #525252;
+}
+#content {
 }
 
 footer {
