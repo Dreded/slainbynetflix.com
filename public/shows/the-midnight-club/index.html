@@ -1,38 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>The Midnight Club | Slain by Netflix</title>
 	<link rel="canonical" href="https://slainbynetflix.com">
 	<link rel='alternate' type='application/rss+xml' title="Slain by Netflix RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
+	
 	<link rel="icon" href="/img/logo.png">
 	<meta name="description" content="At a manor with a mysterious history, the 8 members of the Midnight Club meet each night at midnight to tell sinister stories – and to look for signs of the supernatural from the beyond.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
 </head>
+
 <body>
-<main>
-<div id="header">
-<header><img class='logo' src='/img/logo.png'><span id="tag_The Midnight Club" class="title">Slain by Netflix <span class="page_title">- The Midnight Club</span></span></header>
+	<main>
+		<a href="/">
+		<div id="header">
+			<header><img class='logo' src='/img/logo.png'><span id="tag_The Midnight Club" class="title"><img src="/img/title.png" /></span></header>
+		</div>
+		</a>
+		
+<div>
 </div>
-<article>
+<div class="single_content">
+    <div class="single_poster">
+        <img src="https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg">
+    </div>
+    <div class="single_data">
+        <div class="top_area">
+            <h2 class="show_name">
+                <a href="https://themoviedb.org/tv/126254" target="_blank">The Midnight Club</a>
+                <span class="release_date">
+                    (<time class="post-stub-date" datetime="2022-10-07">2022</time>)
+                </span>
+            </h2>
+            <div class="details">
+                
+                <span class="certification">
+                    TV-MA
+                </span>
+                
+                
+                <ul class="genres">
+                
+                    <li class="genre"><a href="/genres/drama">Drama</a></li>
+                
+                    <li class="genre"><a href="/genres/mystery">Mystery</a></li>
+                
+                </ul>
+                
+                
+                <span class="runtime">
+                    &nbsp;&nbsp;&nbsp;&nbsp;54m
+                </span>
+                
+                <span class="vote_average">
+                    <svg class="radial-progress" data-percentage="70" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.341px;"></circle>
+                        <text class="percentage" x="50%" y="45%" transform="matrix(0, 1, -1, 0, 80, 0)">Score</text>
+                        <text class="percentage" x="50%" y="77%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <div class="info">
+            
+            <h3 class="tagline">Death is a rite of passage.</h3>
+            
+            <div class="overview">
+                <p>At a manor with a mysterious history, the 8 members of the Midnight Club meet each night at midnight to tell sinister stories – and to look for signs of the supernatural from the beyond.</p>
+            </div>
 
-<div id="content">
-<p>At a manor with a mysterious history, the 8 members of the Midnight Club meet each night at midnight to tell sinister stories – and to look for signs of the supernatural from the beyond.</p>
-
+            <div class="single_dates">
+                <time class="post-stub-date" datetime=" 2022-10-07">2022-10-07</time>
+                -
+                <time class="post-stub-date" datetime=" 2022-10-07">2022-10-07</time>
+            </div>
+            <div>
+                <span class="subtitle seasons">Seasons:</span> 1
+                <span class="subtitle episodes">Episodes:</span> 10
+            </div>
+            
+            <ol class="creators">
+                
+                <li class="creator">
+                    <p><a href="/creators/mike-flanagan">Mike Flanagan</a></p>
+                    <p class="character">Creator</p>
+                </li>
+                
+                <li class="creator">
+                    <p><a href="/creators/leah-fong">Leah Fong</a></p>
+                    <p class="character">Creator</p>
+                </li>
+                
+            </ol>
+            
+        </div>
+    </div>
 </div>
 
-<div id="nextprev">
-<a href="/shows/fate-the-winx-saga/"><div id="prevart">Previous:<br>Fate: The Winx Saga</div></a>
-</div>
+		<div id="nextprev">
+    <a href="/shows/fate-the-winx-saga/">
+        <div id="prevart">Previous:<br>Fate: The Winx Saga</div>
+    </a>
+    </div>
 
-</article>
 </main>
-
-<footer>
-	<a href="https://slainbynetflix.com">https://slainbynetflix.com</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
-</footer>
-
+	
+	<footer>
+		<a href="https://slainbynetflix.com">Home</a>
+		<div class="tmdb_credit">All data gathered using the <a href="https://themoviedb.org" target="_blank"><img height="15px" src="/img/tmdb.svg"></a> API</div>
+	</footer>
+	
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+    </script>
+<script>
+    $('svg.radial-progress').each(function (index, value) {
+        $(this).find($('circle.complete')).removeAttr('style');
+    });
+
+    $(window).scroll(function () {
+        $('svg.radial-progress').each(function (index, value) {
+            
+            if (
+                $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+            ) {
+                
+                percent = $(value).data('percentage');
+                
+                radius = $(this).find($('circle.complete')).attr('r');
+                
+                circumference = 2 * Math.PI * radius;
+                
+                strokeDashOffset = circumference - ((percent * circumference) / 100);
+                
+                $(this).find($('circle.complete')).animate({ 'stroke-dashoffset': strokeDashOffset }, 1250);
+            }
+        });
+    }).trigger('scroll');
+</script>
 </html>

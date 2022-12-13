@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Drama | Slain by Netflix</title>
+	<link rel="canonical" href="https://slainbynetflix.com">
+	<link rel='alternate' type='application/rss+xml' title="Slain by Netflix RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	
+	<link rel="icon" href="/img/logo.png">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<main>
+		<a href="/">
+		<div id="header">
+			<header><img class='logo' src='/img/logo.png'><span id="tag_Drama" class="title"><img src="/img/title.png" /></span></header>
+		</div>
+		</a>
+		<h1>Drama</h1>
+
+<ul>
+<li><a href="/shows/the-midnight-club/">The Midnight Club</a></li>
+<li><a href="/shows/fate-the-winx-saga/">Fate: The Winx Saga</a></li>
+<li><a href="/shows/the-imperfects/">The Imperfects</a></li>
+<li><a href="/shows/partner-track/">Partner Track</a></li>
+<li><a href="/shows/resident-evil/">Resident Evil</a></li>
+<li><a href="/shows/first-kill/">First Kill</a></li>
+<li><a href="/shows/raising-dion/">Raising Dion</a></li>
+<li><a href="/shows/archive-81/">Archive 81</a></li>
+<li><a href="/shows/gentefied/">Gentefied</a></li>
+<li><a href="/shows/another-life/">Another Life</a></li>
+<li><a href="/shows/on-the-verge/">On the Verge</a></li>
+<li><a href="/shows/hit-run/">Hit &amp; Run</a></li>
+<li><a href="/shows/jupiters-legacy/">Jupiter&#39;s Legacy</a></li>
+<li><a href="/shows/the-irregulars/">The Irregulars</a></li>
+<li><a href="/shows/country-comfort/">Country Comfort</a></li>
+<li><a href="/shows/bonding/">Bonding</a></li>
+<li><a href="/shows/chilling-adventures-of-sabrina/">Chilling Adventures of Sabrina</a></li>
+<li><a href="/shows/grand-army/">Grand Army</a></li>
+<li><a href="/shows/away/">Away</a></li>
+<li><a href="/shows/teenage-bounty-hunters/">Teenage Bounty Hunters</a></li>
+<li><a href="/shows/the-order/">The Order</a></li>
+<li><a href="/shows/white-lines/">White Lines</a></li>
+<li><a href="/shows/i-am-not-okay-with-this/">I Am Not Okay with This</a></li>
+<li><a href="/shows/october-faction/">October Faction</a></li>
+<li><a href="/shows/messiah/">Messiah</a></li>
+<li><a href="/shows/spinning-out/">Spinning Out</a></li>
+<li><a href="/shows/soundtrack/">Soundtrack</a></li>
+<li><a href="/shows/v-wars/">V Wars</a></li>
+<li><a href="/shows/insatiable/">Insatiable</a></li>
+<li><a href="/shows/glow/">GLOW</a></li>
+<li><a href="/shows/the-society/">The Society</a></li>
+<li><a href="/shows/chambers/">Chambers</a></li>
+<li><a href="/shows/the-oa/">The OA</a></li>
+<li><a href="/shows/turn-up-charlie/">Turn Up Charlie</a></li>
+<li><a href="/shows/the-good-cop/">The Good Cop</a></li>
+<li><a href="/shows/sense8/">Sense8</a></li>
+<li><a href="/shows/seven-seconds/">Seven Seconds</a></li>
+<li><a href="/shows/everything-sucks/">Everything Sucks!</a></li>
+<li><a href="/shows/lady-dynamite/">Lady Dynamite</a></li>
+<li><a href="/shows/gypsy/">Gypsy</a></li>
+<li><a href="/shows/bloodline/">Bloodline</a></li>
+<li><a href="/shows/the-get-down/">The Get Down</a></li>
+<li><a href="/shows/marco-polo/">Marco Polo</a></li>
+</ul>
+		
+</main>
+	
+	<footer>
+		<a href="https://slainbynetflix.com">Home</a>
+		<div class="tmdb_credit">All data gathered using the <a href="https://themoviedb.org" target="_blank"><img height="15px" src="/img/tmdb.svg"></a> API</div>
+	</footer>
+	
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+    </script>
+<script>
+    $('svg.radial-progress').each(function (index, value) {
+        $(this).find($('circle.complete')).removeAttr('style');
+    });
+
+    $(window).scroll(function () {
+        $('svg.radial-progress').each(function (index, value) {
+            
+            if (
+                $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+            ) {
+                
+                percent = $(value).data('percentage');
+                
+                radius = $(this).find($('circle.complete')).attr('r');
+                
+                circumference = 2 * Math.PI * radius;
+                
+                strokeDashOffset = circumference - ((percent * circumference) / 100);
+                
+                $(this).find($('circle.complete')).animate({ 'stroke-dashoffset': strokeDashOffset }, 1250);
+            }
+        });
+    }).trigger('scroll');
+</script>
+</html>

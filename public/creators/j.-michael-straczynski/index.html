@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>J. Michael Straczynski | Slain by Netflix</title>
+	<link rel="canonical" href="https://slainbynetflix.com">
+	<link rel='alternate' type='application/rss+xml' title="Slain by Netflix RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	
+	<link rel="icon" href="/img/logo.png">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<main>
+		<a href="/">
+		<div id="header">
+			<header><img class='logo' src='/img/logo.png'><span id="tag_J. Michael Straczynski" class="title"><img src="/img/title.png" /></span></header>
+		</div>
+		</a>
+		<h1>J. Michael Straczynski</h1>
+
+<ul>
+<li><a href="/shows/sense8/">Sense8</a></li>
+</ul>
+		
+</main>
+	
+	<footer>
+		<a href="https://slainbynetflix.com">Home</a>
+		<div class="tmdb_credit">All data gathered using the <a href="https://themoviedb.org" target="_blank"><img height="15px" src="/img/tmdb.svg"></a> API</div>
+	</footer>
+	
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+    </script>
+<script>
+    $('svg.radial-progress').each(function (index, value) {
+        $(this).find($('circle.complete')).removeAttr('style');
+    });
+
+    $(window).scroll(function () {
+        $('svg.radial-progress').each(function (index, value) {
+            
+            if (
+                $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+            ) {
+                
+                percent = $(value).data('percentage');
+                
+                radius = $(this).find($('circle.complete')).attr('r');
+                
+                circumference = 2 * Math.PI * radius;
+                
+                strokeDashOffset = circumference - ((percent * circumference) / 100);
+                
+                $(this).find($('circle.complete')).animate({ 'stroke-dashoffset': strokeDashOffset }, 1250);
+            }
+        });
+    }).trigger('scroll');
+</script>
+</html>

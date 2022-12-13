@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://slainbynetflix.com/creators/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/drama/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/leah-fong/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/mike-flanagan/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/mystery/</loc>
+    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,17 +29,41 @@
     <loc>https://slainbynetflix.com/shows/the-midnight-club/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/brian-young/</loc>
+    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/fate-the-winx-saga/</loc>
     <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/sci-fi-fantasy/</loc>
+    <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/action-adventure/</loc>
+    <lastmod>2022-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-imperfects/</loc>
     <lastmod>2022-09-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/genres/animation/</loc>
+    <lastmod>2022-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/comedy/</loc>
+    <lastmod>2022-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/lisa-hanawalt/</loc>
+    <lastmod>2022-08-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/tuca-bertie/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/georgia-lee/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/partner-track/</loc>
     <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/andrew-dabb/</loc>
+    <lastmod>2022-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/resident-evil/</loc>
     <lastmod>2022-07-14T00:00:00+00:00</lastmod>
@@ -29,44 +71,119 @@
     <loc>https://slainbynetflix.com/shows/first-kill/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/v.e.-schwab/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/carol-barbee/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/raising-dion/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/archive-81/</loc>
     <lastmod>2022-01-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/rebecca-sonnenshine/</loc>
+    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/christopher-l.-yost/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/cowboy-bebop/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/crime/</loc>
     <lastmod>2021-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/gentefied/</loc>
     <lastmod>2021-11-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/linda-yvette-chavez/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/marvin-lemus/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/aaron-martin/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/another-life/</loc>
     <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/kids/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/rachel-shukert/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-baby-sitters-club/</loc>
     <lastmod>2021-10-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/doug-mand/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/jack-dolgen/</loc>
+    <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/pretty-smart/</loc>
     <lastmod>2021-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/julie-delpy/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/shows/on-the-verge/</loc>
+    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/gabe-liedman/</loc>
+    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/q-force/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/avi-issacharoff/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/dawn-prestwich/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/hit-run/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/lior-raz/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/nicole-yorkin/</loc>
     <lastmod>2021-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/cooking-with-paris/</loc>
     <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/genres/reality/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/jupiters-legacy/</loc>
+    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/steven-s.-deknight/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-irregulars/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/tom-bidwell/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/caryn-lucas/</loc>
+    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/country-comfort/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/family/</loc>
+    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/jeff-lowell/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-crew/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
@@ -74,8 +191,17 @@
     <loc>https://slainbynetflix.com/shows/bonding/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/rightor-doyle/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/chilling-adventures-of-sabrina/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/roberto-aguirre-sacasa/</loc>
+    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/kevin-hench/</loc>
+    <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/mr-iglesias/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
@@ -83,11 +209,23 @@
     <loc>https://slainbynetflix.com/shows/grand-army/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/katie-cappiello/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/andrew-hinderaker/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/away/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/ben-hoffman/</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/hoops/</loc>
     <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/kathleen-jordan/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/teenage-bounty-hunters/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
@@ -95,20 +233,53 @@
     <loc>https://slainbynetflix.com/shows/cursed/</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/frank-miller/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/tom-wheeler/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/patriot-act-with-hasan-minhaj/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/genres/talk/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/dennis-heaton/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/shelley-eriksen/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-order/</loc>
     <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/allan-manings/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/one-day-at-a-time/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/whitney-blake/</loc>
+    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/%C3%A1lex-pina/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/white-lines/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/duncan-trussell/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/pendleton-ward/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/the-midnight-gospel/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/josh-bycel/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-big-show-show/</loc>
     <lastmod>2020-04-06T00:00:00+00:00</lastmod>
@@ -116,8 +287,20 @@
     <loc>https://slainbynetflix.com/shows/altered-carbon/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/laeta-kalogridis/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/christy-hall/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/i-am-not-okay-with-this/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/jonathan-entwistle/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/damian-kindler/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/october-faction/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
@@ -125,11 +308,26 @@
     <loc>https://slainbynetflix.com/shows/aj-and-the-queen/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/michael-patrick-king/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/rupaul/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/messiah/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/michael-petroni/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/samantha-stratton/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/spinning-out/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/joshua-safran/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/soundtrack/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
@@ -137,11 +335,26 @@
     <loc>https://slainbynetflix.com/shows/astronomy-club-the-sketch-show/</loc>
     <lastmod>2019-12-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/kenya-barris/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/glenn-davis/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/v-wars/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/william-laurin/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/merry-happy-whatever/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/aron-eli-coleite/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/brad-peyton/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/daybreak/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
@@ -149,11 +362,29 @@
     <loc>https://slainbynetflix.com/shows/insatiable/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/lauren-gussis/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/jim-henson/</loc>
+    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/the-dark-crystal-age-of-resistance/</loc>
     <lastmod>2019-08-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/carly-mensch/</loc>
+    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/glow/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/liz-flahive/</loc>
+    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/david-h.-steinberg/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/keetgi-kogan/</loc>
+    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/no-good-nick/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
@@ -161,23 +392,56 @@
     <loc>https://slainbynetflix.com/shows/shes-gotta-have-it/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/spike-lee/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/christopher-keyser/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/the-society/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/chambers/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/leah-rachel/</loc>
+    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/santa-clarita-diet/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/victor-fresco/</loc>
+    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/brit-marling/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-oa/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/zal-batmanglij/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/gary-reich/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/idris-elba/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/turn-up-charlie/</loc>
     <lastmod>2019-03-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/francesca-delbanco/</loc>
+    <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/friends-from-college/</loc>
     <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/nicholas-stoller/</loc>
+    <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/andy-breckman/</loc>
+    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-good-cop/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
@@ -185,7 +449,16 @@
     <loc>https://slainbynetflix.com/shows/american-vandal/</loc>
     <lastmod>2018-09-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/dan-perrault/</loc>
+    <lastmod>2018-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/tony-yacenda/</loc>
+    <lastmod>2018-09-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/all-about-the-washingtons/</loc>
+    <lastmod>2018-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/jeremy-bronson/</loc>
     <lastmod>2018-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/the-break-with-michelle-wolf/</loc>
@@ -194,14 +467,38 @@
     <loc>https://slainbynetflix.com/shows/the-joel-mchale-show-with-joel-mchale/</loc>
     <lastmod>2018-07-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/j.-michael-straczynski/</loc>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/lana-wachowski/</loc>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/lilly-wachowski/</loc>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/sense8/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/seven-seconds/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/veena-sud/</loc>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/ben-york-jones/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/everything-sucks/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/michael-mohan/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/chuck-lorre/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/david-javerbaum/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/disjointed/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
@@ -212,20 +509,53 @@
     <loc>https://slainbynetflix.com/shows/lady-dynamite/</loc>
     <lastmod>2017-11-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/mitchell-hurwitz/</loc>
+    <lastmod>2017-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/pam-brady/</loc>
+    <lastmod>2017-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/chris-ballinger/</loc>
+    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/colleen-ballinger/</loc>
+    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/haters-back-off/</loc>
     <lastmod>2017-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/gypsy/</loc>
     <lastmod>2017-06-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/lisa-rubin/</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/bloodline/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/daniel-zelman/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/glenn-kessler/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/todd-a.-kessler/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/girlboss/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://slainbynetflix.com/creators/kay-cannon/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/baz-luhrmann/</loc>
+    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://slainbynetflix.com/shows/the-get-down/</loc>
     <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://slainbynetflix.com/creators/john-fusco/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://slainbynetflix.com/shows/marco-polo/</loc>
     <lastmod>2016-07-01T00:00:00+00:00</lastmod>
@@ -233,14 +563,10 @@
     <loc>https://slainbynetflix.com/shows/netflix-presents-the-characters/</loc>
     <lastmod>2016-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://slainbynetflix.com/shows/hemlock-grove/</loc>
+    <loc>https://slainbynetflix.com/creators/brian-mcgreevy/</loc>
     <lastmod>2015-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://slainbynetflix.com/shows/on-the-verge/</loc>
-    <lastmod>2013-07-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://slainbynetflix.com/categories/</loc>
-  </url><url>
-    <loc>https://slainbynetflix.com/tags/</loc>
+    <loc>https://slainbynetflix.com/shows/hemlock-grove/</loc>
+    <lastmod>2015-10-23T00:00:00+00:00</lastmod>
   </url>
 </urlset>
