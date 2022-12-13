@@ -1,5 +1,5 @@
 {{ define "title" -}}
-{{ .Title | title }}
+<img src="/img/title.png" />
 {{- end }}
 {{ define "main" -}}
 {{ .Content }}
@@ -14,15 +14,17 @@
             <div class="post-text" >
               <a href="{{ .Permalink }}" itemprop="url">
                   <h3 class="post-stub-title" itemprop="name">{{ .Title }}</h3>
-                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">First Air Date:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.first_air_date }}</time><br />
-                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">Last Air Date:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.last_air_date }}</time><br />
-                  <span class="subtitle">Seasons:</span> {{ with .Params.number_of_seasons }}{{.}}{{end}}
-                  <span class="subtitle">Episodes:</span> {{ with .Params.number_of_episodes }}{{.}}{{end}}
-                  {{ .Content }}
-                  {{ with .Params.featured }}
-                      <span class="post-stub-tag">Featured</span>
-                  {{ end }}
-              </a>  
+                </a>  
+                  <div class="dates">
+                    <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.first_air_date }}</time>
+                     - 
+                    <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.last_air_date }}</time>
+                  </div>
+                  <div>
+                    <span class="subtitle seasons">Seasons:</span> {{ with .Params.number_of_seasons }}{{.}}{{end}}
+                    <span class="subtitle episodes">Episodes:</span> {{ with .Params.number_of_episodes }}{{.}}{{end}}
+                 </div>
+                  {{ .Params.summary }}
           </div>
             <div style="clear:both;"></div>
           </li>

@@ -1,0 +1,79 @@
+{{ define "title" -}}
+<img src="/img/title.png" />
+{{- end }}
+{{ define "main"}}
+<div>
+</div>
+<div class="single_content">
+    <div class="single_poster">
+        <img src="https://image.tmdb.org/t/p/w500{{ .Params.poster_path }}">
+    </div>
+    <div class="single_data">
+        <div class="top_area">
+            <h2 class="show_name">
+                <a href="https://themoviedb.org/tv/{{ .Params.id }}" target="_blank">{{ .Params.title }}</a>
+                <span class="release_date">
+                    (<time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ dateFormat (default "2006" .Site.Params.dateFormat) .Params.first_air_date }}</time>)
+                </span>
+            </h2>
+            <div class="details">
+                {{ with .Params.us_rating }}
+                <span class="certification">
+                    {{ . }}
+                </span>
+                {{ end }}
+                {{ with .Params.genres }}
+                <ul class="genres">
+                {{ range . }}
+                    <li class="genre"><a href="/genres/{{- . | urlize -}}">{{ . }}</a></li>
+                {{ end }}
+                </ul>
+                {{ end }}
+                {{ with .Params.avg_runtime}}
+                <span class="runtime">
+                    &nbsp;&nbsp;&nbsp;&nbsp;{{ . }}m
+                </span>
+                {{ end }}
+                <span class="vote_average">
+                    <svg class="radial-progress" data-percentage="{{ .Params.vote_average }}" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.341px;"></circle>
+                        <text class="percentage" x="50%" y="45%" transform="matrix(0, 1, -1, 0, 80, 0)">Score</text>
+                        <text class="percentage" x="50%" y="77%" transform="matrix(0, 1, -1, 0, 80, 0)">{{ .Params.vote_average }}%</text>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <div class="info">
+            {{with .Params.tagline }}
+            <h3 class="tagline">{{ . }}</h3>
+            {{ end }}
+            <div class="overview">
+                <p>{{ .Params.summary }}</p>
+            </div>
+
+            <div class="single_dates">
+                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.first_air_date
+                    }}</time>
+                -
+                <time class="post-stub-date" datetime="{{- .Date.Format " 2006-01-02" }}">{{ .Params.last_air_date
+                    }}</time>
+            </div>
+            <div>
+                <span class="subtitle seasons">Seasons:</span> {{ with .Params.number_of_seasons }}{{.}}{{end}}
+                <span class="subtitle episodes">Episodes:</span> {{ with .Params.number_of_episodes }}{{.}}{{end}}
+            </div>
+            {{ with .Params.creators }}
+            <ol class="creators">
+                {{ range . }}
+                <li class="creator">
+                    <p><a href="/creators/{{ . | urlize }}">{{ . }}</a></p>
+                    <p class="character">Creator</p>
+                </li>
+                {{ end }}
+            </ol>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

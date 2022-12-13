@@ -25,6 +25,7 @@ img {
 }
 .post-stub {
 	display: flex; align-items: center;
+	margin-bottom: 40px;
 }
 .post-image {
 	padding-right: 20px;
@@ -36,10 +37,13 @@ img {
 .post-text h3 {
 	padding: 0 0;
 	margin: 0 0;
-	color:#FFFFFF;
 }
 .subtitle {
 	font-weight: bold;
+	color:#c00000;
+}
+.episodes, .last-air-date {
+	padding-left: 10px;
 }
 
 header {
@@ -47,11 +51,14 @@ header {
 	display: flex;
 	justify-content: center; /* Align horizontal */
 	align-items: center; /* Align vertical */
+	margin-bottom: 10px;
 }
 header .title {
 	font-size: 3em;
 	color:#c00000;
-	font-weight: bold;
+}
+.dates {
+	font-size: smaller;
 }
 
 header h1 {
@@ -67,12 +74,11 @@ header img {
 .menuactive {
 	background-color: #525252;
 }
-#content {
-}
 
 footer {
 	text-align: center ;
 	clear: both ;
+	font-size: .8em;
 }
 
 /* For TAGLIST.HTML */
@@ -96,3 +102,91 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+
+.single_content {
+	display: flex;
+}
+.single_data {
+	width: 80%;
+	margin: auto;
+	margin-left: 30px;
+}
+.single_dates {
+	font-size: .8em;
+}
+.show_name {
+	margin-bottom: 0;
+}
+.details {
+	padding: 0;
+	font-size: .8em;
+}
+.certification {
+    border: 1px solid rgba(255,255,255,0.6);
+    color: rgba(255,255,255,0.6);
+	margin-right: 10px;
+}
+.tagline {
+	font-size: smaller;
+	font-style: italic;
+	font-weight: 100;
+}
+.creators {
+	display: flex;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.creators li {
+	margin-right: 20px;
+}
+.creators li p {
+	margin: 0;
+}
+.creators li .character {
+	font-size: .8em;
+}
+.genres {
+	display: inline-flex;
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+.genre + .genre:before {
+    content: ", "
+}
+.vote_average {
+	float: right;
+}
+
+
+
+svg.radial-progress {
+	height: auto;
+	max-width: 60px;
+	transform: rotate(-90deg);
+	width: 100%;
+	font-size: 20px;
+  }
+  
+  svg.radial-progress circle {
+	fill: rgba(0,0,0,0);
+	stroke:#98f739;
+	stroke-dashoffset: 219.91148575129; 
+	stroke-width: 10;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+	fill: #FFFFFF;
+	text-anchor: middle;
+	font-weight: 900;
+  }
+  .tmdb_credit {
+	height: 10px;
+	width: 100%;
+  }

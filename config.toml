@@ -2,11 +2,24 @@ baseURL = 'https://slainbynetflix.com'
 languageCode = 'en-us'
 title = 'Slain by Netflix'
 theme = 'lugo'
+[taxonomies]
+  genre = 'genres'
+  creators = 'creators'
 
 [params]
   logo = '/img/logo.png'
   favicon = "/img/logo.png"
   mainSections = 'shows'
+  relatedtext = "Related"
+
+  #list items
+  datesinlist = false
+  authorsinlist = false
+
+  #footer items
+  nextprev = true
+  taglist = true
+  showrss = false
 
 #[menu]
 #[[menu.main]]
