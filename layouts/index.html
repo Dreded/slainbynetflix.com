@@ -6,16 +6,18 @@
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
 
     <ol class="post-list">
-        {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-        {{ range $pag.Pages }}
+        {{ $pag := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+        {{ range $pag }}
         <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
 
             <div class="post-image"><img src="/img/tombstone.png" /></div>
             <div class="post-text" >
               <a href="{{ .Permalink }}" itemprop="url">
                   <h3 class="post-stub-title" itemprop="name">{{ .Title }}</h3>
-                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">Cacelled:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.Cancelleddate }}</time><br />
-                  <span class="subtitle">Seasons:</span> {{ with .Params.Seasons }}{{.}}{{end}}
+                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">First Air Date:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.first_air_date }}</time><br />
+                  <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}"><span class="subtitle">Last Air Date:</span> {{ dateFormat (default "January 2006" .Site.Params.dateFormat) .Params.last_air_date }}</time><br />
+                  <span class="subtitle">Seasons:</span> {{ with .Params.number_of_seasons }}{{.}}{{end}}
+                  <span class="subtitle">Episodes:</span> {{ with .Params.number_of_episodes }}{{.}}{{end}}
                   {{ .Content }}
                   {{ with .Params.featured }}
                       <span class="post-stub-tag">Featured</span>

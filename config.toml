@@ -5,13 +5,14 @@ theme = 'lugo'
 
 [params]
   logo = '/img/logo.png'
-  mainSections = 'movies'
+  favicon = "/img/logo.png"
+  mainSections = 'shows'
 
-[menu]
-[[menu.main]]
-  identifier = 'about'
-  name = 'about hugo'
-  url = '/about/'
-  weight = -110
-  [menu.main.params]
-    class = 'highlight-menu-item'
+#[menu]
+#[[menu.main]]
+#  identifier = 'about'
+#  name = 'about hugo'
+#  url = '/about/'
+#  weight = -110
+#  [menu.main.params]
+#    class = 'highlight-menu-item'
