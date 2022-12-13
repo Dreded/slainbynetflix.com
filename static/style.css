@@ -107,6 +107,17 @@ footer {
 .single_content {
 	display: flex;
 }
+@media (max-width:800px) { /*adjust this like you want*/
+	.single_content {
+	 display:block;
+	}
+	.single_poster {
+		text-align: center;
+	}
+	.single_poster img {
+		height: 500px;
+	}
+}
 .single_data {
 	width: 80%;
 	margin: auto;
