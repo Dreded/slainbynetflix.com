@@ -1,7 +1,9 @@
 {{ define "main" -}}
 {{ .Content }}
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
-
+  <center>
+<h5 class="showcount">{{ len (where .Site.RegularPages "Section" "==" .Site.Params.mainSections) }} Shows</h5>
+</center>
     <ol class="post-list">
         {{ $pag := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
         {{ range $pag }}

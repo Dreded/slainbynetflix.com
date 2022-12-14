@@ -16,7 +16,9 @@ main {
 	max-width: 800px ;
 	margin: auto ;
 }
-
+.showcount {
+	margin: 0;
+}
 img {
 	max-width: 100% ;
 }
