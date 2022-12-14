@@ -14,7 +14,7 @@ theme = 'lugo'
 
   #metatag
   description = "A list of shows cancelled by netflix."
-  twitter_card_image = "/img/summary_shot.png"
+  twitter_card_image = "/img/twitter.png"
   meta_image = "/img/logo_complete.png"
 
   #list items
