@@ -7,10 +7,15 @@ theme = 'lugo'
   creators = 'creators'
 
 [params]
-  logo = '/img/logo.png'
+  logo = '/img/logo_complete.png'
   favicon = "/img/logo.png"
   mainSections = 'shows'
   relatedtext = "Related"
+
+  #metatag
+  description = "A list of shows cancelled by netflix."
+  twitter_card_image = "/img/summary_shot.png"
+  meta_image = "/img/logo_complete.png"
 
   #list items
   datesinlist = false
