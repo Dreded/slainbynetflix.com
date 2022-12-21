@@ -7,6 +7,7 @@ window.onload = function () {
   autocomplete(document.getElementById("searchItem"), search_terms);
 };
 
+
 function autocompleteMatch(input) {
   if (input == "" || input.length <= 1) {
     return [];
