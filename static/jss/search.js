@@ -23,13 +23,14 @@ function search() {
   var pattern = name.toLowerCase();
   var targetId = "";
 
-  var divs = document.getElementsByClassName("post-stub-title");
-  for (var i = 0; i < divs.length; i++) {
-    var title = divs[i].innerText.toLowerCase();
-    var index = title.indexOf(pattern);
+//   var divs = document.getElementsByClassName("post-stub-title");
+  for (var i = 0; i < search_terms.length; i++) {
+    var title = search_terms[i];
+    var titleLower = title.toLowerCase();
+    var index = titleLower.indexOf(pattern);
     if (index != -1) {
-      targetId = divs[i].parentNode.parentNode.parentNode.id;
-      document.getElementById(targetId).scrollIntoView();
+    //   targetId = divs[i].parentNode.parentNode.parentNode.id;
+      document.getElementById(title).scrollIntoView();
       break;
     }
   }
@@ -58,11 +59,11 @@ function autocomplete(inp, arr) {
             /*create a DIV element for each matching element:*/
             b = document.createElement("DIV");
             /*make the matching letters bold:*/
-            let match = matches[i].toLowerCase();
-            console.log(match);
-            var indexOfMatch = match.indexOf(val.toLowerCase());
+            let match = matches[i];
+            let matchLower = match.toLowerCase();
+            var indexOfMatch = matchLower.indexOf(val.toLowerCase());
             b.innerHTML = match.substr(0,indexOfMatch);
-            b.innerHTML += "<strong>" + match.substr(indexOfMatch, val.length) + "</strong>";
+            b.innerHTML += "<span class=autocomplete-match>" + match.substr(indexOfMatch, val.length) + "</span>";
             b.innerHTML += match.substr(indexOfMatch+val.length,match.length);
             // b.innerHTML += match;
             /*insert a input field that will hold the current array item's value:*/

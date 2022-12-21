@@ -6,12 +6,12 @@ body {
 }
 a:link,
 a:visited {
-  color: #307cbb;
+  color: DodgerBlue;
   text-decoration: none;
 }
 a:hover,
 a:active {
-  color: #307cbb;
+  color: DodgerBlue;
   text-decoration: underline;
 }
 main {
@@ -25,7 +25,7 @@ main {
 
 
 
-* {
+.searchForm * {
 	box-sizing: border-box;
   }
 /*the container must be positioned relative:*/
@@ -35,27 +35,26 @@ main {
 }
 
 input {
-	border: 1px solid transparent;
-	background-color: #f1f1f1;
-	padding: 10px;
-	font-size: 16px;
+	background-color: #ffffff;
+	padding: .5rem;
+	font-size: 1rem;
 	color: #000000;
 }
 
 input[type=text] {
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 	width: 100%;
 }
 
 input[type=submit] {
-	background-color: #307cbb;
-	color: #fff;
+	background-color: DodgerBlue;
+	color: #ffffff;
 	cursor: pointer;
 }
 
 .autocomplete-items {
 	position: absolute;
-	border: 1px solid #d4d4d4;
+	border: 1px solid #ffffff;
 	border-bottom: none;
 	border-top: none;
 	z-index: 99;
@@ -63,15 +62,18 @@ input[type=submit] {
 	top: 100%;
 	left: 0;
 	right: 0;
+	color: #666666;
+}
+.autocomplete-match {
 	color: #000000;
+	font-weight: bold;
 }
 
 .autocomplete-items div {
-	padding: 10px;
+	padding: .5rem;
 	cursor: pointer;
-	background-color: #fff;
-	border-bottom: 1px solid #d4d4d4;
-	color: #000000;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 
 /*when hovering an item:*/

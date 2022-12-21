@@ -3,12 +3,14 @@
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
   <center>
 <h5 class="showcount">{{ len (where .Site.RegularPages "Section" "==" .Site.Params.mainSections) }} Shows</h5>
+<div class="searchForm">
 <form autocomplete="off" id="searchForm" action="javascript:search();">
   <div class="autocomplete">
-     <input type="text" id="searchItem" class="form-control" placeholder="Search...">
+     <input type="text" id="searchItem" placeholder="Search...">
   </div>
   <input type="submit">
   </form>
+</div>
 </center>
     <ol class="post-list">
         {{ $pag := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
