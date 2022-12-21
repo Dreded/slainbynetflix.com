@@ -3,14 +3,20 @@
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
   <center>
 <h5 class="showcount">{{ len (where .Site.RegularPages "Section" "==" .Site.Params.mainSections) }} Shows</h5>
+<form autocomplete="off" id="searchForm" action="javascript:search();">
+  <div class="autocomplete">
+     <input type="text" id="searchItem" class="form-control" placeholder="Search...">
+  </div>
+  <input type="submit">
+  </form>
 </center>
     <ol class="post-list">
         {{ $pag := (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
         {{ range $pag }}
-        <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+        <li class="post-stub" id="{{ .Title }}" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
 
             <div class="post-image"><img src="/img/tombstone.png" /></div>
-            <div class="post-text" >
+            <div class="post-text">
               <a href="{{ .Permalink }}" itemprop="url">
                   <h3 class="post-stub-title" itemprop="name">{{ .Title }}</h3>
                 </a>  
@@ -31,4 +37,5 @@
           
     </ol>
 </div>
+<script src="jss/search.js"></script>
 {{end}}

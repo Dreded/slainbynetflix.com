@@ -1,206 +1,279 @@
 body {
-	font-family: sans-serif ;
-	font-size: 1.2em;
-	background: #000000 ;
-	color: #ccc ;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  background: #000000;
+  color: #ccc;
 }
-a:link, a:visited {
-	color:#307cbb;
-	text-decoration: none;
+a:link,
+a:visited {
+  color: #307cbb;
+  text-decoration: none;
 }
-a:hover, a:active {
-	color:#307cbb;
-	text-decoration: underline;
+a:hover,
+a:active {
+  color: #307cbb;
+  text-decoration: underline;
 }
 main {
-	max-width: 800px ;
-	margin: auto ;
+  max-width: 800px;
+  margin: auto;
 }
 .showcount {
-	margin: 0;
+  margin: 0;
 }
+
+
+
+
+* {
+	box-sizing: border-box;
+  }
+/*the container must be positioned relative:*/
+.autocomplete {
+	position: relative;
+	display: inline-block;
+}
+
+input {
+	border: 1px solid transparent;
+	background-color: #f1f1f1;
+	padding: 10px;
+	font-size: 16px;
+	color: #000000;
+}
+
+input[type=text] {
+	background-color: #f1f1f1;
+	width: 100%;
+}
+
+input[type=submit] {
+	background-color: #307cbb;
+	color: #fff;
+	cursor: pointer;
+}
+
+.autocomplete-items {
+	position: absolute;
+	border: 1px solid #d4d4d4;
+	border-bottom: none;
+	border-top: none;
+	z-index: 99;
+	/*position the autocomplete items to be the same width as the container:*/
+	top: 100%;
+	left: 0;
+	right: 0;
+	color: #000000;
+}
+
+.autocomplete-items div {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff;
+	border-bottom: 1px solid #d4d4d4;
+	color: #000000;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+	background-color: #aaaaaa;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+	background-color: DodgerBlue !important;
+	color: #ffffff;
+}
+
+
+
 img {
-	max-width: 100% ;
+  max-width: 100%;
 }
 .post-list {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .post-stub {
-	display: flex; align-items: center;
-	margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
 }
 .post-image {
-	width: 15%;
+  width: 15%;
 }
 .post-text {
-	padding-left: 20px;
-	width: 85%;
+  padding-left: 20px;
+  width: 85%;
 }
 .post-text h3 {
-	padding: 0 0;
-	margin: 0 0;
+  padding: 0 0;
+  margin: 0 0;
 }
 .subtitle {
-	font-weight: bold;
-	color:#c00000;
+  font-weight: bold;
+  color: #c00000;
 }
-.episodes, .last-air-date {
-	padding-left: 10px;
+.episodes,
+.last-air-date {
+  padding-left: 10px;
 }
 
 header {
-	height: 5em;
-	display: flex;
-	justify-content: center; /* Align horizontal */
-	align-items: center; /* Align vertical */
-	margin-bottom: 10px;
+  height: 5em;
+  display: flex;
+  justify-content: center; /* Align horizontal */
+  align-items: center; /* Align vertical */
+  margin-bottom: 10px;
 }
 header .title {
-	font-size: 3em;
-	color:#c00000;
+  font-size: 3em;
+  color: #c00000;
 }
 .dates {
-	font-size: smaller;
+  font-size: smaller;
 }
 
 header h1 {
-	text-align: center;
-	display: inline;
+  text-align: center;
+  display: inline;
 }
 header .page_title {
-	font-size: 30px;
+  font-size: 30px;
 }
 header img {
-	height: 100%;
+  height: 100%;
 }
 .menuactive {
-	background-color: #525252;
+  background-color: #525252;
 }
 
 footer {
-	text-align: center ;
-	clear: both ;
-	font-size: .8em;
+  text-align: center;
+  clear: both;
+  font-size: 0.8em;
 }
 
 /* For TAGLIST.HTML */
 .taglist {
-	text-align: center ;
-	clear: both ;
+  text-align: center;
+  clear: both;
 }
 
 /* For NEXTPREV.HTML */
 #nextprev {
-	/* The container for both the previous and next articles. */
+  /* The container for both the previous and next articles. */
 }
 #prevart {
-	float: left ;
-	text-align: left ;
+  float: left;
+  text-align: left;
 }
 #nextart {
-	float: right ;
-	text-align: right ;
+  float: right;
+  text-align: right;
 }
-#nextart,#prevart {
-	max-width: 33% ;
+#nextart,
+#prevart {
+  max-width: 33%;
 }
-
 
 .single_content {
-	display: flex;
+  display: flex;
 }
-@media (max-width:800px) { /*adjust this like you want*/
-	.single_content {
-	 display:block;
-	}
-	.single_poster {
-		text-align: center;
-	}
-	.single_poster img {
-		height: 500px;
-	}
+@media (max-width: 800px) {
+  /*adjust this like you want*/
+  .single_content {
+    display: block;
+  }
+  .single_poster {
+    text-align: center;
+  }
+  .single_poster img {
+    height: 500px;
+  }
 }
 .single_data {
-	width: 80%;
-	margin: auto;
-	margin-left: 30px;
+  width: 80%;
+  margin: auto;
+  margin-left: 30px;
 }
 .single_dates {
-	font-size: .8em;
+  font-size: 0.8em;
 }
 .show_name {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .details {
-	padding: 0;
-	font-size: .8em;
+  padding: 0;
+  font-size: 0.8em;
 }
 .certification {
-    border: 1px solid rgba(255,255,255,0.6);
-    color: rgba(255,255,255,0.6);
-	margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 10px;
 }
 .tagline {
-	font-size: smaller;
-	font-style: italic;
-	font-weight: 100;
+  font-size: smaller;
+  font-style: italic;
+  font-weight: 100;
 }
 .creators {
-	display: flex;
-	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
+  display: flex;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 .creators li {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 .creators li p {
-	margin: 0;
+  margin: 0;
 }
 .creators li .character {
-	font-size: .8em;
+  font-size: 0.8em;
 }
 .genres {
-	display: inline-flex;
-	list-style: none;
-	margin: 0;
-	padding: 0
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .genre + .genre:before {
-    content: ", "
+  content: ", ";
 }
 .vote_average {
-	float: right;
+  float: right;
 }
 
-
-
 svg.radial-progress {
-	height: auto;
-	max-width: 60px;
-	transform: rotate(-90deg);
-	width: 100%;
-	font-size: 20px;
-  }
-  
-  svg.radial-progress circle {
-	fill: rgba(0,0,0,0);
-	stroke:#98f739;
-	stroke-dashoffset: 219.91148575129; 
-	stroke-width: 10;
-  }
-  
-  svg.radial-progress circle.incomplete { opacity: 0.25; }
-  
-  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
-  
-  svg.radial-progress text {
-	fill: #FFFFFF;
-	text-anchor: middle;
-	font-weight: 900;
-  }
-  .tmdb_credit {
-	height: 10px;
-	width: 100%;
-  }
+  height: auto;
+  max-width: 60px;
+  transform: rotate(-90deg);
+  width: 100%;
+  font-size: 20px;
+}
+
+svg.radial-progress circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #98f739;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete {
+  opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+  stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+  fill: #ffffff;
+  text-anchor: middle;
+  font-weight: 900;
+}
+.tmdb_credit {
+  height: 10px;
+  width: 100%;
+}
